@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/Gilroy-ExtraBold.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +21,8 @@
   gap: 2vw;
 }
 .text {
-  font-family: "Gilroy";
+  font-size: 2vw;
+  font-family: Gilroy;
   color: whitesmoke;
   text-transform: capitalize;
   text-align: center;
@@ -33,7 +38,7 @@
   padding: 1vw 1.8vw;
   border-radius: 10px;
   cursor: pointer;
-  font-family: "GILROY";
+  font-family: Gilroy;
   font-weight: bold;
   color: whitesmoke;
 }
